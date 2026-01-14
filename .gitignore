@@ -1,0 +1,16 @@
+# Environment variables
+.env*
+
+# Packages
+node_modules/
+venv/
+
+# DB
+*.db
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store

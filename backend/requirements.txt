@@ -1,0 +1,19 @@
+fastapi>=0.115.0  # 0.115+ compatible with pydantic 2.12+ (Python 3.13)
+uvicorn[standard]>=0.24.0
+sqlalchemy>=2.0.30  # 2.0.30+ has Python 3.13 support
+alembic>=1.12.1
+pydantic>=2.10.0  # 2.12.5+ has Python 3.13 support
+pydantic-settings>=2.1.0  # 2.12.0+ recommended
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+feedparser>=6.0.12  # 6.0.12+ has Python 3.13 support (removed cgi dependency)
+tweepy>=4.16.0  # 4.16.0+ has Python 3.13 support (removed imghdr dependency)
+apscheduler>=3.10.4
+email-validator>=2.0.0  # Required for EmailStr validation
+google-auth>=2.23.0  # Google OAuth authentication
+google-auth-oauthlib>=1.1.0  # Google OAuth flow
+# psycopg2-binary is optional - only needed for PostgreSQL
+# Install with: pip install psycopg2-binary
+# psycopg2-binary==2.9.9
+
