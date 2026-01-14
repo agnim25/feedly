@@ -13,9 +13,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 2. **Install dependencies:**
 ```bash
 # Backend dependencies
-cd backend
 pip install -r backend/requirements.txt
-cd ..
 
 # Frontend dependencies
 cd frontend
